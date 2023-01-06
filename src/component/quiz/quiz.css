@@ -1,0 +1,19 @@
+.next{
+    background-color: gray;
+    color: black;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.next:hover{
+    cursor:pointer;
+    background-color: yellow;
+    color:black;
+    padding: 13px 23px;
+    font-size: 23px;
+    font-weight: bolder;
+
+}
+.next[disabled]{
+    display:none;
+}

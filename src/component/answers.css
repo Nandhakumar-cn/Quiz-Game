@@ -1,0 +1,45 @@
+.bala{
+    text-align: center;
+   
+    text-transform: uppercase;
+    font-size: 60px;
+    
+    
+    
+}
+ .b1{
+    color:mediumvioletred;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 5px;
+    
+ }
+
+ .o1{
+    
+    margin-left: 500px;
+    padding: 5px;
+ }
+ .buttons{
+    margin-left: 600px;
+    height: 45px;
+    width: 140px;
+    background-color: chartreuse;
+    font-size: 30px;
+    font-weight: bolder;
+    
+ }
+ .buttons:hover{
+    cursor: pointer;
+    background-color: gray;
+
+
+ }
+ li{
+   color: white;
+ }
+ u{
+   color: gold;
+   text-shadow: 0px 2px 2px orangered,0px 2px 2px orangered,0px 5px 10px black ;
+ }

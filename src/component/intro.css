@@ -1,0 +1,35 @@
+.main-content h1{
+    color: white;
+    text-align: center;
+    
+
+}
+.main-content button{
+    color:black;
+    background-color:rgb(45, 111, 233);
+    padding: 10px;
+    border: 3px outset rgb(238, 211, 4);
+    font-size: larger;
+    transition: 0.3s;
+    border-radius: 20px;
+    font-weight: bolder;
+
+}
+.main-content button:hover{
+    cursor: pointer;
+    background-color:blue;
+    color: white;
+
+}
+.main-content h2{
+ color:rgb(62, 219, 240);
+ text-align: center;
+
+}
+.main-content{
+   margin-top: 15%;
+
+}
+u{
+    color: aliceblue;
+}

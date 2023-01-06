@@ -1,0 +1,73 @@
+.options{
+    list-style: none;
+    margin: 2%;
+    padding: 0;
+
+    
+}
+.options li{
+    padding: 10px;
+    background-color: rgb(179, 179, 192);
+    margin: 30px 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    color: black;
+}
+.options li:hover{
+    cursor: pointer;
+    background-color:yellow;
+    color: black;
+    
+}
+.options .crt , .options .crt:hover{
+    background-color: rgb(141, 255, 47);
+    font-weight: bolder;
+    border: 3px solid  rgb(141, 255, 47);
+
+}
+.options .incrt , .options .incrt:hover{
+    background-color: orangered;
+    font-weight: bolder;
+    border: 3px solid red;
+}
+.options[disabled]{
+    pointer-events: none;
+    opacity: 0.8;
+}
+.p1{
+    color: green;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.p2{
+    color: red;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.p1::before{
+    content: ' \2713  -  ';
+    text-shadow: 2px 2px 2px green;
+    
+}
+.p2::before{
+    content: '\274c\00a0  - ';
+    text-shadow:  2px 2px 2px red;
+}
+.options .crt::after{
+    
+   
+     right:100px;
+    
+    content: '\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ \2713   ';
+    text-shadow: 2px 2px 2px green;
+    font-size: 25px;
+    
+    
+   
+}
+.options .incrt::after{
+    right:100px;
+    content: '\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\274c ';
+    text-shadow:  2px 2px 2px red;
+    font-size: 25px;
+}

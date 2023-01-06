@@ -1,0 +1,25 @@
+.end{
+    text-align: center;
+    background-color: slategrey;
+    margin: 2%;
+    padding: 10%;
+
+}
+.end h1{
+    color: mediumblue;
+}
+.end button{
+    color: rgb(20, 20, 21);
+    background-color:goldenrod;
+    padding: 15px;
+    border: 5px outset black;
+    font-size: 20px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.end button:hover{
+    cursor: pointer;
+    background-color:gold;
+}
+
